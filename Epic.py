@@ -39,7 +39,7 @@ def start(client, message):
             [
                 [
                     InlineKeyboardButton('Sahibim 👬', url='https://t.me/husnumustafayevdi'),
-                    InlineKeyboardButton('Öz Botunu Yarat 👩‍💻', url='https://t.me/epicprjects/9')
+                    InlineKeyboardButton('Sahibim'lə whatsapp əlaqəsi ', url='https://wa.me/+994504949476')
                 ]
             ]
         )
@@ -95,7 +95,7 @@ def a(client, message):
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = f'🎧 Başlıq : [{title[:35]}]({link})\n⏳ Müddət : `{duration}`\n🎬 Mənbə : `Youtube`\n👁‍🗨 Baxış Sayı : `{views}`\n\n💌 𝐁𝐲 : @EpicProjects'
+        rep = f'🎧 Başlıq : [{title[:35]}]({link})\n⏳ Müddət : `{duration}`\n🎬 Mənbə : `Youtube`\n👁‍🗨 Baxış Sayı : `{views}`\n\n💌 𝐁𝐲 : @husnumustafayevdi'
         secmul, dur, dur_arr = 1, 0, duration.split(':')
         for i in range(len(dur_arr)-1, -1, -1):
             dur += (int(dur_arr[i]) * secmul)
