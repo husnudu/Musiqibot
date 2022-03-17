@@ -103,7 +103,7 @@ def a(client, message):
         message.reply_audio(audio_file, caption=rep, parse_mode='md',quote=False, title=title, duration=dur, thumb=thumb_name)
         m.delete()
     except Exception as e:
-        m.edit('❌ Xəta\n\n Xətanın həll edilməsi üçün @EpicProjects müraciət et ❤️')
+        m.edit('❌ Xəta\n\n Xətanın həll edilməsi üçün @slmmnhusnu müraciət et ❤️')
         print(e)
     try:
         os.remove(audio_file)
